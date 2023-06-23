@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&family=Roboto&family=Source+Serif+Pro&display=swap');
+#box {
+	border: 1px solid gray;
+	border-radius: 4px;
+	width:50px;
+	position: fixed;
+	z-index: 10;
+	top: 10px;
+	right: 10px;
+}
+#new, #del{
+	margin: 0px;
+	height: 20px;
+	width:45%;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+li:hover{
+	background-color:gray;
+}
+.delOn li:hover{
+	background-color:red;
+}
+#new:hover{
+	background-color: gray;
+}
+#noteSection{
+	width: 56px;
+	position: fixed;
+	z-index: 10;
+	top: 30px;
+	right: 10px;
+}
+#notes {
+	margin: 0px;
+	padding-inline-start: 0px;
+	list-style-type: none;
+	border: 1px solid gray;
+	border-radius: 3px;
+	width:auto;
+}
+
+li {
+	padding: 2px;
+	font-size: 8px;
+}
+.CodeMirror-selectedtext {
+    background: #00372a !important;
+}
+.CodeMirror-selected{
+	background: black !important;
+}
+.CodeMirror-focused .CodeMirror-selected,.CodeMirror-line::selection,.CodeMirror-line>span::selection,.CodeMirror-line>span>span::selection {
+	background: black !important;
+}
+
+
+.CodeMirror-cursor {
+	color: white !important;
+	background-color: white !important;
+	border-left:1px solid white !important;
+}
+
+
+*{
+    /*background-color: #FBF0D9;
+	color:#5F4B32;*/
+	background-color: black;
+	color: white;
+
+}
+.CodeMirror{
+	border: 1px solid gray!important;
+	border-radius: 4px ;
+	padding: 0 !important;
+}
+/*
+body{
+	color:white;
+}
+#sheet{
+	caret-color: white;
+}
+
+.CodeMirror{
+	background: black !important;
+	caret-color: white;
+}*/
+
+/*#sheet {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    font-size:25px;
+    caret-color: var(--accent8);
+    background: transparent;
+    color: var(--base3);
+    box-sizing: border-box;
+    user-select: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    padding:10%;
+    
+    min-height: 100%;
+    overflow-y: scroll;
+  }
+
+ */
